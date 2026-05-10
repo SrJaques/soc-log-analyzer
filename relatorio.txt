@@ -1,0 +1,78 @@
+============================================================
+  RELATORIO DE ANALISE DE LOGS - SOC ANALYZER
+  Gerado em: 10/05/2026 11:54:08
+============================================================
+
+ 10 ALERTA(S) DETECTADO(S):
+
+--- Alerta #1 ---
+  Tipo:       Brute Force
+  IP:         10.0.0.99
+  Detalhe:    6 tentativas falhas (HTTP 401/403)
+  MITRE:      T1110 - Brute Force
+  Severidade: ALTA
+
+--- Alerta #2 ---
+  Tipo:       Brute Force
+  IP:         203.0.113.77
+  Detalhe:    5 tentativas falhas (HTTP 401/403)
+  MITRE:      T1110 - Brute Force
+  Severidade: ALTA
+
+--- Alerta #3 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #4 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #5 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #6 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #7 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #8 ---
+  Tipo:       Scan de Admin
+  IP:         10.0.0.99
+  Detalhe:    URL suspeita: /admin/login
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #9 ---
+  Tipo:       Directory Traversal
+  IP:         185.220.101.45
+  Detalhe:    URL suspeita: /../../etc/passwd
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+--- Alerta #10 ---
+  Tipo:       Scan de Admin
+  IP:         185.220.101.45
+  Detalhe:    URL suspeita: /wp-admin
+  MITRE:      T1190 - Exploit Public-Facing Application
+  Severidade: ALTA
+
+============================================================
